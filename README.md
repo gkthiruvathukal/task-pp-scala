@@ -136,20 +136,17 @@ We plan to:
 
 * Generalize this design into an **event-driven framework**
 * Decouple computation logic from communication patterns
-* Explore structured messaging using higher-level APIs (e.g. Akka, FS2, or ZIO)
+* Explore structured messaging options to `upickle` using higher-level APIs (e.g. Akka, FS2, or ZIO) - *unlikely but here for completeness*
 
 The larger goal is to **reintroduce high-level, type-safe functional programming into the HPC toolbox**, bridging the gap between expressive software engineering and scalable scientific computing.
 
 ## 🧠 Final Thoughts
 
-This project is intentionally simple — but the ideas are scalable.
+This project is intentionally simple — but the ideas are scalable (and already used in cloud computing).
 It’s a **musical sketch**, not a symphony.
 But even sketches can inspire great works.
 
 We hope this project inspires new ways of thinking about HPC — not just as a domain of low-level speed, but as one where **clarity, structure, and safety** also belong.
-
-Let me know if you'd like this in `README.md` format or included directly in the downloadable project.
-
 
 ## Reproducibility
 
