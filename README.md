@@ -135,6 +135,7 @@ We plan to:
 * Generalize this design into an **event-driven framework**
 * Decouple computation logic from communication patterns
 * Explore structured messaging options to `upickle` using higher-level APIs (e.g. Akka, FS2, or ZIO) - *unlikely but here for completeness*
+* Add CLI and remove all hard-coded aspects (e.g. port 5555).
 
 The larger goal is to **reintroduce high-level, type-safe functional programming into the HPC toolbox**, bridging the gap between expressive software engineering and scalable scientific computing.
 
