@@ -4,6 +4,18 @@ This project demonstrates how to build lightweight, type-safe parallel applicati
 
 The Monte Carlo Pi calculation is used to demonstrate the potential for this approach, given that it has been used to show the effectiveness of other classical parallel computing frameworks!
 
+Certainly — here’s a clear and friendly **Disclaimer** section you can include in your `README.md`:
+
+## ⚠️  Disclaimer
+
+This project is an early-stage **prototype** — a **Minimum Viable Application (MVA)** — intended to demonstrate basic patterns in lightweight parallel computing using Scala and ZeroMQ.
+
+It is **not yet production-ready**.
+
+We welcome feedback, but kindly ask that you wait for a formal release before opening issues or requesting features.
+
+If you're interested in contributing or collaborating, feel free to reach out via [my GitHub profile](https://github.com/gkthiruvathukal). I'm happy to connect and discuss ideas for how this work can grow.
+
 ## 🎧 Motivation: In Defense of the Embarrassingly Parallel
 
 In the HPC field, the term *"embarrassingly parallel"* is often used pejoratively, as if simple parallelism is somehow beneath serious computing.
