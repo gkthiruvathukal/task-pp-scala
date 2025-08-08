@@ -4,13 +4,18 @@ This project demonstrates how to build lightweight, type-safe parallel applicati
 
 The Monte Carlo Pi calculation is used to demonstrate the potential for this approach, given that it has been used to show the effectiveness of other classical parallel computing frameworks!
 
+
 ## ⚠️  Disclaimer
 
 This project is an early-stage **prototype** — a **Minimum Viable Application (MVA)** — intended to demonstrate basic patterns in lightweight parallel computing using Scala and ZeroMQ.
 
 It is **not yet production-ready**.
+The focus here is on how to develop type-safe, ahead-of-time compiled applications to run on modern supercomputers/clusters.
 
-We welcome feedback, but kindly ask that you wait for a formal release before opening issues or requesting features.
+If you are looking for a Python-based solution, we do plan to make a version available but not until the core abstractions are in place.
+We are polyglot programmers who have worked with many languages, including C, C++, Java, Scala, Go, and Rust, among others and understand/appreciate language preferences.
+
+Although We welcome feedback, we kindly ask that you wait for a formal release before opening issues or requesting features.
 
 If you're interested in contributing or collaborating, feel free to reach out via [my GitHub profile](https://github.com/gkthiruvathukal). I'm happy to connect and discuss ideas for how this work can grow.
 
