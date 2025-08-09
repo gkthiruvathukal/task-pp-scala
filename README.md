@@ -8,14 +8,17 @@ The Monte Carlo Pi calculation is used to demonstrate the potential for this app
 ## ⚠️  Disclaimer
 
 This project is an early-stage **prototype** — a **Minimum Viable Application (MVA)** — intended to demonstrate basic patterns in lightweight parallel computing using Scala and ZeroMQ.
+All features of more "advanced" parallel computing systems are deliberately absent.
 
 It is **not yet production-ready**.
+It is also **not a framework yet**.
 The focus here is on how to develop type-safe, ahead-of-time compiled applications to run on modern supercomputers/clusters.
+Most importantly, the primary use case is **embarrassing** parallelism.
 
 If you are looking for a Python-based solution, we do plan to make a version available but not until the core abstractions are in place.
 We are polyglot programmers who have worked with many languages, including C, C++, Java, Scala, Go, and Rust, among others and understand/appreciate language preferences.
 
-Although We welcome feedback, we kindly ask that you wait for a formal release before opening issues or requesting features.
+Although we welcome feedback, we kindly ask that you wait for a formal release before opening issues or requesting features.
 
 If you're interested in contributing or collaborating, feel free to reach out via [my GitHub profile](https://github.com/gkthiruvathukal). I'm happy to connect and discuss ideas for how this work can grow.
 
@@ -141,6 +144,7 @@ We plan to:
 * Decouple computation logic from communication patterns
 * Explore structured messaging options to `upickle` using higher-level APIs (e.g. Akka, FS2, or ZIO) - *unlikely but here for completeness*
 * Add CLI and remove all hard-coded aspects (e.g. port 5555).
+* Explore whether we can use UDP instead of TCP. On clusters, one can reasonably assume reliable message delivery using UDP, especially in point-to-point communication, especially for short messaging.
 
 The larger goal is to **reintroduce high-level, type-safe functional programming into the HPC toolbox**, bridging the gap between expressive software engineering and scalable scientific computing.
 
@@ -148,9 +152,10 @@ The larger goal is to **reintroduce high-level, type-safe functional programming
 
 This project is intentionally simple — but the ideas are scalable (and already used in cloud computing).
 It’s a **musical sketch**, not a symphony.
-But even sketches can inspire great works.
+But even sketches can inspire great works (eventually).
 
 We hope this project inspires new ways of thinking about HPC — not just as a domain of low-level speed, but as one where **clarity, structure, and safety** also belong.
+We also hope this project will show the potential for writing computations that have the conciseness of Python but with the benefits that come from type-safe thinking, including support for Ahead of Time (AoT) compilation.
 
 ## Reproducibility
 
